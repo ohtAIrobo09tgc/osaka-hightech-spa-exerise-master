@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO Application Week</title>
+  <link rel="stylesheet" href="assets/week.css">
+  <script>
+    const API_ROOT = 'https://kooi-robo.herokuapp.com';
+  </script>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="assets/todo-list.js"></script>
+  <script src="assets/todo-input.js"></script>
+  <script src="assets/week.js"></script>
+  <script src="assets/index.js"></script>
+</head>
+
+<body>
+  <div class="title">TODOリスト</div>
+  <div class="note">
+    <img src="assets/557165.jpg" title="TODOのイメージ的なもの">
+  </div>
+  <a href="index.html" class="rink">TODOの登録はコチラ</a>
+  <h2> </h2>
+  <h3>TODOを押すと編集（削除）ができます</h3>
+  <div id="app">
+    <youbi :weeks="day_of_week"></youbi>
+    <week syu="1" :days="calendar.slice(0, 7)"></week>
+    <week syu="2" :days="calendar.slice(7, 14)"></week>
+    <week syu="3" :days="calendar.slice(14, 21)"></week>
+    <week syu="4" :days="calendar.slice(21, 28)"></week>
+  </div>
+</body>
+
+</html>

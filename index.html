@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="assets/index.css">
+  <script>
+    const API_ROOT = 'https://kooi-robo.herokuapp.com';
+  </script>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="assets/todo-list.js"></script>
+  <script src="assets/todo-input.js"></script>
+  <script src="assets/week.js"></script>
+  <script src="assets/index.js"></script>
+
+</head>
+
+<body>
+  <div class="center">
+    <div class="title">
+      ここでTODOの登録を行います
+    </div>
+    <div id="app">
+      <h3> </h3>
+      <a href="week.html" class="rink1">カレンダーに移動</a>
+      <h3>登録したTODOはこちらに表示されます</h3>
+      <todo-list></todo-list>
+      <todo-input></todo-input>
+    </div>
+  </div>
+</body>
+
+</html>

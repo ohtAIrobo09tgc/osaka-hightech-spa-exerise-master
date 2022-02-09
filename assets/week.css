@@ -1,0 +1,72 @@
+body {
+    margin: 40px;
+  }
+  .title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bold;
+    background-color:rgb(152, 255, 67);
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 300px 100px 100px 100px 100px 100px 100px 100px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .box {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+    border: 2px solid #000000; 
+    padding: 20px;
+    font-size: 100%;
+  }
+  .hako{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000; 
+  }
+  .boxes{    
+    background-color: rgba(74, 201, 42, 0.753);
+    color: #000000;
+    border: 2px solid #000000; 
+    padding: 20px;
+    font-size: 100%;
+  }
+  .hakos{    
+    background-color: rgb(166, 255, 0);
+    border: 2px solid #000000; 
+    padding:20px;
+    font-size: 100%;
+
+  }
+  .days{
+    font-size: small;
+    margin-left: 50%;
+    
+  }
+
+  .Tododay{
+    background-color:  rgb(0, 255, 200);
+    color: #000000;
+    cursor: pointer;
+    cursor: hand;
+
+  }
+  .rink{
+    background-color: aquamarine;
+    color:black;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  .note{
+    position:absolute;
+    top:25px;
+    left:570px;
+  }
+  img{
+    width: 80px;
+    height: 80px;
+  }

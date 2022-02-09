@@ -1,0 +1,31 @@
+body {
+    margin: 40px;
+    background-color: rgb(255, 252, 205);
+  }
+  .center{
+    text-align: center;
+  }
+
+  .Contents{
+    color:black;
+    
+  }
+  .rink1{
+    background-color: aquamarine;
+    color:black;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    cursor: hand;
+    text-align: center;
+  }
+  .title{
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-weight:bold;
+  }
+  .button{
+    background-color: aquamarine;
+    border-radius: 10px;
+  }
